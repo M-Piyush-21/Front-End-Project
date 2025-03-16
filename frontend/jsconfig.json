@@ -1,0 +1,20 @@
+// What is jsconfig.json?
+// It is a configuration file for JavaScript projects, mainly used by VS Code to enable better IntelliSense, auto-imports, and module resolution.
+// It helps VS Code understand how your project is structured.
+
+// "compilerOptions" → Settings that tell VS Code how to handle JavaScript.
+//  "moduleResolution": "node" →
+// This makes sure VS Code resolves (finds) modules like Node.js does.
+// It allows you to use import something from "package" without issues.
+// "include": ["src"] →
+// This tells VS Code "Only look at files inside the src folder" for suggestions, IntelliSense, and errors.
+// Other folders (like node_modules) are ignored.
+
+
+{
+    "compilerOptions": {
+        "moduleResolution": "node"
+    },
+    "include": ["src"]
+}
+
