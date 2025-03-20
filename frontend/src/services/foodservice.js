@@ -1,3 +1,3 @@
-import { sample_food } from "../data"
+import { sample_foods } from "../data"
 
-export const getAll = async() => sample_food;
+export const getAll = async() => sample_foods;
